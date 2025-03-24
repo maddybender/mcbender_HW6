@@ -1,41 +1,92 @@
 <link rel="stylesheet" href="styles.css">
 
+/* General reset */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5; /* light pink */
     margin: 0;
     padding: 0;
+    color: #333;
   }
   
-  header, footer {
-    background-color: #333;
+  /* Header styling */
+  header {
+    background-color: #ff69b4; /* hot pink */
     color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
   }
   
   nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-weight: bold;
   }
   
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styling */
   main {
-    padding: 20px;
+    padding: 30px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.2); /* pink shadow */
   }
   
+  h2, h3 {
+    color: #d63384; /* soft magenta */
+  }
+  
+  /* Image styling */
   img {
     border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
   }
   
+  /* Table styling */
   table {
-    width: 50%;
-    margin-top: 20px;
+    width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
   }
   
-  table, th, td {
-    border: 1px solid #ccc;
+  th, td {
+    border: 1px solid #f8c1da;
     padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffc0cb; /* light pink */
+    color: #333;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  
+  /* Link styling */
+  a {
+    color: #d63384;
+  }
+  
+  a:hover {
+    color: #ff1493;
   }
   
